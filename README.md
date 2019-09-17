@@ -1,5 +1,5 @@
 # MANRS-validator
-A BGP Security Auditing Tool that runs locally and checks configuration the router config against the best practices as defined by MANRS
+A BGP Security Auditing Tool that runs locally and checks the router config against the best practices as defined by MANRS (https://www.manrs.org/)
 Currently the solution uses RobotFramework (https://robotframework.org) to check the configuration against a .robot audit file and only supports JunOS 
 ## How to run
 Grab the configuration of the router to audit and save it as a text file on the host 
