@@ -1,0 +1,6 @@
+CFG_FILE: <name of router config file>
+URPF: inet rpf-check
+URPF6: inet6 rpf-check
+ACL_INP: inet filter input
+ACL_INP6: inet6 filter input
+INBOUND_ROUTE_ADS_FILTER: set protocols bgp group \w export
